@@ -1,0 +1,6 @@
+# commands to create SO file
+# create object file of calc using  $ g++ -c calc.cpp
+# create object file of main using  $ g++ -c main.cpp
+# create *.so file using            $ g++ -shared -fPIC -o libcalc.so calc.o
+# link library to main object 	    $ g++ -o GO main.o ./libcalc.so -lm
+
